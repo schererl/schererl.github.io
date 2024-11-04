@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Scherer Putrich - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 90%;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex-shrink: 0;
+        }
+        h1 {
+            color: #007acc;
+            margin-top: 0;
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .text-content {
+            text-align: left;
+            max-width: 600px;
+            flex: 1;
+        }
+        .highlight-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 8px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .text-content {
+                text-align: center;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="DSC01330.jpg" alt="Victor Scherer Putrich">
+        <div class="text-content">
+            <h1>Victor Scherer Putrich</h1>
+            <p>
+                I'm Victor Scherer Putrich, currently pursuing my Master’s degree in Artificial Intelligence at the Federal University of Rio Grande do Sul (UFRGS), under the supervision of Professor André Grahl Pereira (UFRGS) and co-supervision of Felipe Rech Meneguzzi (University of Aberdeen). My research is focused on Hierarchical Task Network (HTN) planning, particularly in heuristic search.
+            </p>
+            <div class="highlight-box">
+                <p>
+                    During my undergraduate studies, I worked on three research projects and completed two internships in software engineering and infrastructure automation. My final project (Trabalho de Conclusão de Curso, TCC) focused on searching methods for general game playing using Monte Carlo Tree Search algorithms, which I presented at the Brazilian Conference on Intelligent Systems (BRACIS). I graduated in Computer Science with recognition from CNPq as "Aluno Destaque" (Outstanding Student).
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
